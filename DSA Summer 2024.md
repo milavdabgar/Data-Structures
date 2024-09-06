@@ -1,3 +1,40 @@
+---
+title: Cyber Security
+subtitle: As per Competency-focused Outcome-based Green Curriculum-2021 (COGC-2021)
+author: Milav Dabgar
+documentclass: book
+toc: True
+# toc-depth: 3
+# lof: True
+# lot: True
+papersize: a4
+geometry: "left=2.5cm,right=2.5cm,top=2cm,bottom=2cm"
+fontfamily: charter
+header-includes:
+  - |
+    ```{=latex}
+    % \let\oldsection\section
+    % \renewcommand{\section}[1]{\clearpage\oldsection{#1}}
+    \title{Cyber Security}
+    \author{Milav Dabgar}
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+    \renewcommand{\footrulewidth}{0.4pt}
+    \lhead{\small\textbf{\leftmark}}
+    \rhead{\small\textbf{\thepage}}
+    \lfoot{\small\textbf{\thetitle}}
+    \rfoot{\small\textbf{\theauthor}}
+    \makeatletter
+    \let\thetitle\@title
+    \let\theauthor\@author
+    \makeatother
+    \usepackage{listings}
+    \lstset{breaklines=true, postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}}
+    ```
+---
+
 [TOC]
 
 ## 1333203 DSA Summer 2024
