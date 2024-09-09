@@ -140,6 +140,7 @@ Time and space complexity are crucial concepts in algorithm analysis that help e
 Time complexity is a measure of the amount of time an algorithm takes to complete as a function of the input size. It represents the number of operations or steps an algorithm performs relative to the input size.
 
 Key points about time complexity:
+
 - Expressed using Big O notation, e.g., O(n), O(log n), O(n^2)
 - Focuses on the worst-case scenario
 - Helps compare the efficiency of different algorithms
@@ -151,6 +152,7 @@ Example: An algorithm with O(n) time complexity means its execution time grows l
 Space complexity refers to the amount of memory space an algorithm requires relative to the input size. It measures how much additional or auxiliary space is needed by the algorithm to solve a problem.
 
 Key points about space complexity:
+
 - Also expressed using Big O notation
 - Includes both auxiliary space and space used by the input
 - Helps evaluate memory efficiency of algorithms
@@ -179,6 +181,7 @@ graph TD
 ટાઇમ કોમ્પ્લેક્ષીટી એ ઇનપુટ સાઇઝના ફંક્શન તરીકે અલ્ગોરિધમ પૂર્ણ થવામાં લાગતા સમયનું માપ છે. તે ઇનપુટ સાઇઝના સંબંધમાં અલ્ગોરિધમ દ્વારા કરવામાં આવતા operations અથવા steps ની સંખ્યાને રજૂ કરે છે.
 
 ટાઇમ કોમ્પ્લેક્ષીટી વિશેના મુખ્ય મુદ્દાઓ:
+
 - Big O notation નો ઉપયોગ કરીને વ્યક્ત કરવામાં આવે છે, દા.ત., O(n), O(log n), O(n^2)
 - સૌથી ખરાબ કેસ સ્થિતિ પર ધ્યાન કેન્દ્રિત કરે છે
 - વિવિધ અલ્ગોરિધમ્સની કાર્યક્ષમતાની તુલના કરવામાં મદદ કરે છે
@@ -190,6 +193,7 @@ graph TD
 સ્પેસ કોમ્પ્લેક્ષીટી એ ઇનપુટ સાઇઝના સંબંધમાં અલ્ગોરિધમને જરૂરી મેમરી સ્પેસની રકમનો ઉલ્લેખ કરે છે. તે સમસ્યાનો ઉકેલ લાવવા માટે અલ્ગોરિધમને જરૂરી વધારાની અથવા સહાયક જગ્યાનું માપ કરે છે.
 
 સ્પેસ કોમ્પ્લેક્ષીટી વિશેના મુખ્ય મુદ્દાઓ:
+
 - પણ Big O notation નો ઉપયોગ કરીને વ્યક્ત કરવામાં આવે છે
 - સહાયક સ્પેસ અને ઇનપુટ દ્વારા વપરાયેલ સ્પેસ બંને સામેલ છે
 - અલ્ગોરિધમ્સની મેમરી કાર્યક્ષમતાનું મૂલ્યાંકન કરવામાં મદદ કરે છે
@@ -218,6 +222,7 @@ Classes and objects are fundamental concepts in object-oriented programming (OOP
 A class is a blueprint or template for creating objects. It defines the attributes (data) and methods (functions) that the objects of that class will have.
 
 Key points about classes:
+
 - Act as a blueprint for objects
 - Encapsulate data and behavior
 - Support inheritance and polymorphism
@@ -227,6 +232,7 @@ Key points about classes:
 An object is an instance of a class. It represents a specific entity with its own set of data and ability to perform actions defined by its class.
 
 Key points about objects:
+
 - Instances of a class
 - Have their own unique set of attributes
 - Can perform actions (methods) defined in their class
@@ -268,6 +274,7 @@ car2.brake(30)
 ```
 
 In this example:
+
 1. The `Car` class defines the blueprint for car objects.
 2. It has attributes like `make`, `model`, `year`, `color`, and `speed`.
 3. It also has methods `accelerate()` and `brake()` to modify the car's speed.
@@ -314,6 +321,7 @@ Class અને object એ object-oriented programming (OOP)માં મૂળ�
 Class એ objects બનાવવા માટેનો blueprint અથવા template છે. તે attributes (data) અને methods (functions) ને વ્યાખ્યાયિત કરે છે જે તે class ના objects ધરાવશે.
 
 Class વિશેના મુખ્ય મુદ્દાઓ:
+
 - Objects માટે blueprint તરીકે કાર્ય કરે છે
 - Data અને behavior ને encapsulate કરે છે
 - Inheritance અને polymorphism ને support કરે છે
@@ -323,6 +331,7 @@ Class વિશેના મુખ્ય મુદ્દાઓ:
 Object એ class નું instance છે. તે ચોક્કસ entity નું પ્રતિનિધિત્વ કરે છે જે તેના પોતાના data set અને તેના class દ્વારા વ્યાખ્યાયિત ક્રિયાઓ કરવાની ક્ષમતા ધરાવે છે.
 
 Objects વિશેના મુખ્ય મુદ્દાઓ:
+
 - Class ના instances છે
 - તેમના પોતાના અનન્ય attributes set ધરાવે છે
 - તેમના class માં વ્યાખ્યાયિત ક્રિયાઓ (methods) કરી શકે છે
@@ -364,6 +373,7 @@ car2.brake(30)
 ```
 
 આ ઉદાહરણમાં:
+
 1. `Car` class car objects માટે blueprint વ્યાખ્યાયિત કરે છે.
 2. તેમાં `make`, `model`, `year`, `color`, અને `speed` જેવા attributes છે.
 3. તેમાં `accelerate()` અને `brake()` methods પણ છે જે car ની speed ને modify કરે છે.
@@ -669,12 +679,14 @@ graph TD
 A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. It can be visualized as a stack of plates where you can only add or remove plates from the top.
 
 Key characteristics of a stack:
+
 1. Elements are added to the top (push operation)
 2. Elements are removed from the top (pop operation)
 3. Only the top element is accessible at any time
 4. Follows the LIFO (Last-In-First-Out) principle
 
 Common operations:
+
 - Push: Add an element to the top
 - Pop: Remove the top element
 - Peek or Top: View the top element without removing it
@@ -693,11 +705,13 @@ graph TD
 A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle. It can be visualized as a line of people waiting for a service, where the first person to join the line is the first to be served.
 
 Key characteristics of a queue:
+
 1. Elements are added at the rear (enqueue operation)
 2. Elements are removed from the front (dequeue operation)
 3. Follows the FIFO (First-In-First-Out) principle
 
 Common operations:
+
 - Enqueue: Add an element to the rear
 - Dequeue: Remove the front element
 - Front: View the front element without removing it
@@ -723,12 +737,14 @@ Both stacks and queues are fundamental data structures used in various algorithm
 સ્ટેક એ એક linear data structure છે જે Last-In-First-Out (LIFO) સિદ્ધાંતને અનુસરે છે. તેને પ્લેટ્સના સ્ટેક તરીકે કલ્પના કરી શકાય છે જ્યાં તમે માત્ર ટોચથી જ પ્લેટ્સ ઉમેરી અથવા દૂર કરી શકો છો.
 
 સ્ટેકની મુખ્ય લાક્ષણિકતાઓ:
+
 1. Elements ને ટોચ પર ઉમેરવામાં આવે છે (push operation)
 2. Elements ને ટોચથી દૂર કરવામાં આવે છે (pop operation)
 3. કોઈપણ સમયે માત્ર ટોચનો element જ accessible હોય છે
 4. LIFO (Last-In-First-Out) સિદ્ધાંતને અનુસરે છે
 
 સામાન્ય operations:
+
 - Push: ટોચ પર element ઉમેરવો
 - Pop: ટોચનો element દૂર કરવો
 - Peek અથવા Top: ટોચનો element દૂર કર્યા વગર જોવો
@@ -747,11 +763,13 @@ graph TD
 ક્યુ એ એક linear data structure છે જે First-In-First-Out (FIFO) સિદ્ધાંતને અનુસરે છે. તેને સેવા માટે રાહ જોતા લોકોની લાઇન તરીકે કલ્પના કરી શકાય છે, જ્યાં લાઇનમાં જોડાનાર પ્રથમ વ્યક્તિને પ્રથમ સેવા આપવામાં આવે છે.
 
 ક્યુની મુખ્ય લાક્ષણિકતાઓ:
+
 1. Elements ને પાછળના ભાગમાં ઉમેરવામાં આવે છે (enqueue operation)
 2. Elements ને આગળના ભાગથી દૂર કરવામાં આવે છે (dequeue operation)
 3. FIFO (First-In-First-Out) સિદ્ધાંતને અનુસરે છે
 
 સામાન્ય operations:
+
 - Enqueue: પાછળના ભાગમાં element ઉમેરવો
 - Dequeue: આગળના ભાગનો element દૂર કરવો
 - Front: આગળના ભાગનો element દૂર કર્યા વગર જોવો
@@ -1138,17 +1156,18 @@ Let's break this down into two parts: converting the infix expression to postfix
 1. Converting A+B/C+D to postfix:
 
 Step 1: Use the following precedence rules:
+
 - '+' and '-' have lower precedence
 - '*' and '/' have higher precedence
 - Left to right associativity for operators with equal precedence
 
 Step 2: Scan the infix expression from left to right:
 A → output: A
-+ → push to stack: +
+'+' → push to stack: +
 B → output: AB
 / → push to stack: /+
 C → output: ABC
-+ → pop and output /, pop and output +, push +
+'+' → pop and output /, pop and output +, push +
 D → output: ABC/+D
 
 Step 3: Pop remaining operators from the stack:
@@ -1183,6 +1202,7 @@ print(f"Result: {result}")
 ```
 
 Evaluation steps:
+
 1. Push 5 (A)
 2. Push 10 (B)
 3. Push 2 (C)
@@ -1217,17 +1237,18 @@ graph TD
 1. A+B/C+D ને પોસ્ટફિક્સમાં રૂપાંતરિત કરવું:
 
 પગલું 1: નીચેના પ્રાધાન્યતા નિયમોનો ઉપયોગ કરો:
+
 - '+' અને '-' ને ઓછી પ્રાધાન્યતા
 - '*' અને '/' ને ઉચ્ચ પ્રાધાન્યતા
 - સમાન પ્રાધાન્યતા વાળા ઓપરેટર્સ માટે ડાબેથી જમણે સંકલન
 
 પગલું 2: ઇનફિક્સ અભિવ્યક્તિને ડાબેથી જમણે સ્કેન કરો:
 A → આઉટપુટ: A
-+ → સ્ટેકમાં પુશ કરો: +
+'+' → સ્ટેકમાં પુશ કરો: +
 B → આઉટપુટ: AB
 / → સ્ટેકમાં પુશ કરો: /+
 C → આઉટપુટ: ABC
-+ → પોપ કરો અને / આઉટપુટ કરો, પોપ કરો અને + આઉટપુટ કરો, + પુશ કરો
+'+' → પોપ કરો અને / આઉટપુટ કરો, પોપ કરો અને + આઉટપુટ કરો, + પુશ કરો
 D → આઉટપુટ: ABC/+D
 
 પગલું 3: સ્ટેકમાંથી બાકીના ઓપરેટર્સને પોપ કરો:
@@ -1262,6 +1283,7 @@ print(f"પરિણામ: {result}")
 ```
 
 મૂલ્યાંકન પગલાં:
+
 1. 5 પુશ કરો (A)
 2. 10 પુશ કરો (B)
 3. 2 પુશ કરો (C)
@@ -1385,23 +1407,28 @@ graph TD
 Creating a singly linked list in Python involves defining two main components: a Node class and a LinkedList class. Here's a step-by-step explanation:
 
 1. Define the Node class:
+
    ```python
    class Node:
        def __init__(self, data):
            self.data = data
            self.next = None
    ```
+
    This class represents individual nodes in the list, containing data and a reference to the next node.
 
 2. Define the LinkedList class:
+
    ```python
    class LinkedList:
        def __init__(self):
            self.head = None
    ```
+
    This class represents the linked list itself, with a head pointer to the first node.
 
 3. Implement methods to add nodes:
+
    ```python
    def append(self, data):
        new_node = Node(data)
@@ -1413,9 +1440,11 @@ Creating a singly linked list in Python involves defining two main components: a
            current = current.next
        current.next = new_node
    ```
+
    This method adds a new node to the end of the list.
 
 4. Implement a method to display the list:
+
    ```python
    def display(self):
        current = self.head
@@ -1424,9 +1453,11 @@ Creating a singly linked list in Python involves defining two main components: a
            current = current.next
        print("None")
    ```
+
    This method prints the contents of the list.
 
 Example usage:
+
 ```python
 # Create a linked list
 my_list = LinkedList()
@@ -1459,23 +1490,28 @@ This diagram illustrates the structure of the created singly linked list.
 પાયથનમાં સિંગ્લી લિંક્ડ લિસ્ટ બનાવવા માટે બે મુખ્ય ઘટકો વ્યાખ્યાયિત કરવાની જરૂર પડે છે: Node ક્લાસ અને LinkedList ક્લાસ. અહીં પગલાવાર સમજૂતી આપી છે:
 
 1. Node ક્લાસ વ્યાખ્યાયિત કરો:
+
    ```python
    class Node:
        def __init__(self, data):
            self.data = data
            self.next = None
    ```
+
    આ ક્લાસ લિસ્ટમાં વ્યક્તિગત નોડ્સનું પ્રતિનિધિત્વ કરે છે, જેમાં ડેટા અને આગળના નોડનો સંદર્ભ હોય છે.
 
 2. LinkedList ક્લાસ વ્યાખ્યાયિત કરો:
+
    ```python
    class LinkedList:
        def __init__(self):
            self.head = None
    ```
+
    આ ક્લાસ લિંક્ડ લિસ્ટ પોતેનું પ્રતિનિધિત્વ કરે છે, જેમાં પ્રથમ નોડ તરફ પોઇન્ટ કરતું head પોઇન્ટર હોય છે.
 
 3. નોડ્સ ઉમેરવા માટેની પદ્ધતિઓ અમલમાં મૂકો:
+
    ```python
    def append(self, data):
        new_node = Node(data)
@@ -1487,9 +1523,11 @@ This diagram illustrates the structure of the created singly linked list.
            current = current.next
        current.next = new_node
    ```
+
    આ પદ્ધતિ લિસ્ટના અંતે નવો નોડ ઉમેરે છે.
 
 4. લિસ્ટ પ્રદર્શિત કરવા માટેની પદ્ધતિ અમલમાં મૂકો:
+
    ```python
    def display(self):
        current = self.head
@@ -1498,9 +1536,11 @@ This diagram illustrates the structure of the created singly linked list.
            current = current.next
        print("None")
    ```
+
    આ પદ્ધતિ લિસ્ટની સામગ્રી પ્રિન્ટ કરે છે.
 
 ઉપયોગનું ઉદાહરણ:
+
 ```python
 # લિંક્ડ લિસ્ટ બનાવો
 my_list = LinkedList()
@@ -1602,6 +1642,7 @@ Explanation:
 5. `display` method: Prints the entire list.
 
 Output:
+
 ```
 After inserting at the beginning:
 1 -> 2 -> 3 -> None
@@ -1696,6 +1737,7 @@ linked_list.display()
 5. `display` પદ્ધતિ: સમગ્ર લિસ્ટને પ્રિન્ટ કરે છે.
 
 આઉટપુટ:
+
 ```
 શરૂઆતમાં ઉમેર્યા પછી:
 1 -> 2 -> 3 -> None
@@ -1748,6 +1790,7 @@ print("Number of nodes:", linked_list.count_nodes())
 ```
 
 Explanation:
+
 1. We define a `Node` class to represent individual nodes.
 2. The `LinkedList` class has a `count_nodes` method that:
    - Initializes a counter to 0.
@@ -1756,6 +1799,7 @@ Explanation:
    - Returns the final count.
 
 Output:
+
 ```
 Number of nodes: 3
 ```
@@ -1793,6 +1837,7 @@ print("નોડની સંખ્યા:", linked_list.count_nodes())
 ```
 
 સમજૂતી:
+
 1. આપણે વ્યક્તિગત નોડ્સનું પ્રતિનિધિત્વ કરવા માટે `Node` ક્લાસ વ્યાખ્યાયિત કરીએ છીએ.
 2. `LinkedList` ક્લાસમાં `count_nodes` પદ્ધતિ છે જે:
    - કાઉન્ટરને 0થી શરૂ કરે છે.
@@ -1801,6 +1846,7 @@ print("નોડની સંખ્યા:", linked_list.count_nodes())
    - અંતિમ ગણતરી પરત કરે છે.
 
 આઉટપુટ:
+
 ```
 નોડની સંખ્યા: 3
 ```
@@ -1842,6 +1888,7 @@ Here are the correct matches for both the English and Gujarati versions of the q
 These matches correctly associate each type of linked list or component with its defining characteristic.
 
 ### Q3cOR: Explain the deletion of the first and last node in the singly linked list. (**07 marks**)
+
 **Answer Q3cOR:**
 
 In a singly linked list, deleting the first and last nodes requires different approaches due to the list's structure. Let's examine both cases:
@@ -1881,6 +1928,7 @@ In a singly linked list, deleting the first and last nodes requires different ap
    ```
 
 Key points:
+
 - Deleting the first node is O(1) time complexity.
 - Deleting the last node is O(n) time complexity, where n is the number of nodes.
 - Always handle edge cases like empty lists or lists with only one node.
@@ -1904,6 +1952,7 @@ graph TD
 This diagram illustrates the decision process and steps involved in deleting the first and last nodes of a singly linked list.
 
 ________________
+
 ### Q3cOR: સિંગ્લી લિંક્ડ લિસ્ટ મા પ્રથમ અને છેલ્લો નોડ ને કાઢી નાખવાનુ સમજાવો. (**૦૭**)
 
 **જવાબ Q3cOR:**
@@ -1945,6 +1994,7 @@ ________________
    ```
 
 મુખ્ય મુદ્દાઓ:
+
 - પ્રથમ નોડ કાઢી નાખવાની સમય જટિલતા O(1) છે.
 - છેલ્લો નોડ કાઢી નાખવાની સમય જટિલતા O(n) છે, જ્યાં n નોડ્સની સંખ્યા છે.
 - ખાલી લિસ્ટ અથવા માત્ર એક નોડવાળી લિસ્ટ જેવા કિસ્સાઓને હંમેશા સંભાળવા જોઈએ.
@@ -1970,16 +2020,19 @@ graph TD
 ### Q4a: Explain concept of doubly linked list. (03 marks)
 
 A doubly linked list is a type of linear data structure where each node contains three components:
+
 1. Data: Stores the actual value.
 2. Next pointer: Points to the next node in the sequence.
 3. Previous pointer: Points to the previous node in the sequence.
 
 Key features:
+
 - Bidirectional traversal: Can be traversed both forward and backward.
 - Dynamic size: Can grow or shrink at runtime.
 - Efficient insertion/deletion: O(1) time complexity at both ends.
 
 Structure of a node in Python:
+
 ```python
 class Node:
     def __init__(self, data):
@@ -1989,11 +2042,13 @@ class Node:
 ```
 
 Advantages:
+
 - Easy reversal of list
 - Efficient deletion of nodes
 - Can be used to implement stacks and queues
 
 Disadvantages:
+
 - More memory usage due to extra pointer
 - Slightly more complex implementation
 
@@ -2009,16 +2064,19 @@ This diagram illustrates the bidirectional nature of a doubly linked list, showi
 ### Q4a: ડબ્લી લિંક્ડ લિસ્ટ નો કોંસેપ્ટ સમજાવો. (૦૩)
 
 ડબલી લિંક્ડ લિસ્ટ એ એક પ્રકારનું લીનીયર ડેટા સ્ટ્રક્ચર છે જેમાં દરેક નોડમાં ત્રણ ઘટકો હોય છે:
+
 1. ડેટા: વાસ્તવિક મૂલ્ય સંગ્રહિત કરે છે.
 2. આગળનો પોઇન્ટર: ક્રમમાં આગળના નોડને નિર્દેશ કરે છે.
 3. પાછળનો પોઇન્ટર: ક્રમમાં પાછલા નોડને નિર્દેશ કરે છે.
 
 મુખ્ય લક્ષણો:
+
 - દ્વિદિશ ટ્રાવર્સલ: આગળ અને પાછળ બંને દિશામાં ટ્રાવર્સ કરી શકાય છે.
 - ડાયનેમિક સાઇઝ: રનટાઇમ પર વધી અથવા ઘટી શકે છે.
 - કાર્યક્ષમ ઇન્સર્શન/ડિલીશન: બંને છેડે O(1) સમય જટિલતા.
 
 પાયથોનમાં નોડની રચના:
+
 ```python
 class Node:
     def __init__(self, data):
@@ -2028,11 +2086,13 @@ class Node:
 ```
 
 ફાયદાઓ:
+
 - લિસ્ટને સરળતાથી ઉલટાવી શકાય છે
 - નોડ્સનું કાર્યક્ષમ ડિલીશન
 - સ્ટેક્સ અને ક્યૂઝ implement કરવા માટે વાપરી શકાય છે
 
 ગેરફાયદાઓ:
+
 - વધારાના પોઇન્ટરને કારણે વધુ મેમરી વપરાશ
 - થોડું વધુ જટિલ અમલીકરણ
 
@@ -2066,6 +2126,7 @@ Linear search, also known as sequential search, is a simple searching algorithm 
    - Average Case: O(n) - on average, half the elements are checked.
 
 4. Implementation in Python:
+
    ```python
    def linear_search(arr, target):
        for i in range(len(arr)):
@@ -2112,6 +2173,7 @@ This diagram illustrates the linear search process, showing the step-by-step flo
    - સરેરાશ કેસ: O(n) - સરેરાશ રીતે, અડધા તત્વો ચકાસવામાં આવે છે.
 
 4. પાયથોનમાં અમલીકરણ:
+
    ```python
    def linear_search(arr, target):
        for i in range(len(arr)):
@@ -3086,6 +3148,7 @@ graph TD
    1, 2, 3, 4, 5, 6, 8, 10, 12, 14
 
 Explanation of the traversal:
+
 - Start at 8, go left to 4, then to 2, then to 1
 - Visit 1, go back to 2, visit 2, go right to 3
 - Visit 3, go back to 4, visit 4, go right to 6
@@ -3133,6 +3196,7 @@ graph TD
    1, 2, 3, 4, 5, 6, 8, 10, 12, 14
 
 ટ્રાવર્સલની સમજૂતી:
+
 - 8 થી શરૂ કરો, ડાબે 4 પર જાઓ, પછી 2 પર, પછી 1 પર
 - 1 ની મુલાકાત લો, 2 પર પાછા જાઓ, 2 ની મુલાકાત લો, જમણે 3 પર જાઓ
 - 3 ની મુલાકાત લો, 4 પર પાછા જાઓ, 4 ની મુલાકાત લો, જમણે 6 પર જાઓ

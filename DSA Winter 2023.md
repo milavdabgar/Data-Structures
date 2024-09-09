@@ -8,6 +8,7 @@
 A linked list is a dynamic data structure consisting of a sequence of elements, where each element (called a node) contains data and a reference (or link) to the next element in the sequence. Unlike arrays, linked lists do not store elements in contiguous memory locations, allowing for efficient insertion and deletion operations.
 
 Key characteristics of linked lists:
+
 - Dynamic size: Can grow or shrink during program execution
 - Non-contiguous memory allocation: Elements can be stored anywhere in memory
 - Efficient insertion and deletion: O(1) time complexity for operations at the beginning or end
@@ -53,6 +54,7 @@ graph LR
 linked list એ એક ડાયનેમિક ડેટા સ્ટ્રક્ચર છે જેમાં એલિમેન્ટ્સનો ક્રમ હોય છે, જ્યાં દરેક એલિમેન્ટ (જેને node કહેવાય છે) ડેટા અને ક્રમમાં આગળના એલિમેન્ટનો સંદર્ભ (અથવા link) ધરાવે છે. એરેઝથી વિપરીત, linked lists એલિમેન્ટ્સને સતત મેમરી સ્થાનોમાં સંગ્રહિત કરતા નથી, જે insertion અને deletion ઓપરેશન્સને કાર્યક્ષમ બનાવે છે.
 
 linked lists ની મુખ્ય લાક્ષણિકતાઓ:
+
 - ડાયનેમિક કદ: પ્રોગ્રામ એક્ઝીક્યુશન દરમિયાન વધી અથવા ઘટી શકે છે
 - નોન-કન્ટીગ્યુઅસ મેમરી એલોકેશન: એલિમેન્ટ્સ મેમરીમાં ગમે ત્યાં સ્ટોર કરી શકાય છે
 - કાર્યક્ષમ insertion અને deletion: શરૂઆત અથવા અંતમાં ઓપરેશન્સ માટે O(1) સમય જટિલતા
@@ -101,6 +103,7 @@ Data structures in Python can be categorized into two main types: Linear and Non
 Linear data structures are those in which data elements are arranged sequentially or linearly. Each element is directly connected to its previous and next elements (if they exist).
 
 Characteristics:
+
 - Elements are arranged in a sequential order
 - Each element has at most one predecessor and one successor
 - Data can be traversed in a single run
@@ -108,24 +111,28 @@ Characteristics:
 Examples in Python:
 
 a) Lists:
+
 ```python
 fruits = ['apple', 'banana', 'cherry']
 print(fruits[1])  # Output: banana
 ```
 
 b) Tuples:
+
 ```python
 coordinates = (10, 20)
 print(coordinates[0])  # Output: 10
 ```
 
 c) Strings:
+
 ```python
 message = "Hello"
 print(message[2])  # Output: l
 ```
 
 d) Stack (implemented using a list):
+
 ```python
 stack = []
 stack.append('a')
@@ -134,6 +141,7 @@ print(stack.pop())  # Output: b
 ```
 
 e) Queue (using collections.deque):
+
 ```python
 from collections import deque
 queue = deque(['x', 'y', 'z'])
@@ -145,6 +153,7 @@ print(queue.popleft())  # Output: x
 Non-linear data structures are those in which data elements are not arranged sequentially. Each element can be connected to multiple other elements.
 
 Characteristics:
+
 - Elements are not arranged in a sequential order
 - An element can be connected to multiple other elements
 - Data cannot be traversed in a single run
@@ -152,12 +161,14 @@ Characteristics:
 Examples in Python:
 
 a) Dictionaries:
+
 ```python
 person = {'name': 'John', 'age': 30}
 print(person['name'])  # Output: John
 ```
 
 b) Sets:
+
 ```python
 unique_numbers = {1, 2, 3, 4, 5}
 unique_numbers.add(6)
@@ -165,6 +176,7 @@ print(unique_numbers)  # Output: {1, 2, 3, 4, 5, 6}
 ```
 
 c) Trees (implemented using a class):
+
 ```python
 class TreeNode:
     def __init__(self, value):
@@ -178,6 +190,7 @@ root.right = TreeNode(3)
 ```
 
 d) Graphs (using a dictionary):
+
 ```python
 graph = {
     'A': ['B', 'C'],
@@ -213,6 +226,7 @@ graph TD
 લીનીયર ડેટા સ્ટ્રક્ચર્સ એ છે જેમાં ડેટા એલિમેન્ટ્સ અનુક્રમિક અથવા રેખીય રીતે ગોઠવાયેલા હોય છે. દરેક એલિમેન્ટ તેના અગાઉના અને પછીના એલિમેન્ટ્સ સાથે સીધું જોડાયેલું હોય છે (જો તે અસ્તિત્વમાં હોય તો).
 
 લાક્ષણિકતાઓ:
+
 - એલિમેન્ટ્સ અનુક્રમિક ક્રમમાં ગોઠવાયેલા હોય છે
 - દરેક એલિમેન્ટને વધુમાં વધુ એક પૂર્વગામી અને એક અનુગામી હોય છે
 - ડેટાને એક જ રનમાં ટ્રાવર્સ કરી શકાય છે
@@ -220,24 +234,28 @@ graph TD
 પાયથનમાં ઉદાહરણો:
 
 a) Lists:
+
 ```python
 fruits = ['apple', 'banana', 'cherry']
 print(fruits[1])  # આઉટપુટ: banana
 ```
 
 b) Tuples:
+
 ```python
 coordinates = (10, 20)
 print(coordinates[0])  # આઉટપુટ: 10
 ```
 
 c) Strings:
+
 ```python
 message = "Hello"
 print(message[2])  # આઉટપુટ: l
 ```
 
 d) Stack (લિસ્ટનો ઉપયોગ કરીને અમલીકરણ):
+
 ```python
 stack = []
 stack.append('a')
@@ -246,6 +264,7 @@ print(stack.pop())  # આઉટપુટ: b
 ```
 
 e) Queue (collections.deque નો ઉપયોગ કરીને):
+
 ```python
 from collections import deque
 queue = deque(['x', 'y', 'z'])
@@ -257,6 +276,7 @@ print(queue.popleft())  # આઉટપુટ: x
 નોન-લીનીયર ડેટા સ્ટ્રક્ચર્સ એ છે જેમાં ડેટા એલિમેન્ટ્સ અનુક્રમિક રીતે ગોઠવાયેલા નથી. દરેક એલિમેન્ટ અન્ય ઘણા એલિમેન્ટ્સ સાથે જોડાયેલું હોઈ શકે છે.
 
 લાક્ષણિકતાઓ:
+
 - એલિમેન્ટ્સ અનુક્રમિક ક્રમમાં ગોઠવાયેલા નથી
 - એક એલિમેન્ટ અન્ય ઘણા એલિમેન્ટ્સ સાથે જોડાયેલું હોઈ શકે છે
 - ડેટાને એક જ રનમાં ટ્રાવર્સ કરી શકાતો નથી
@@ -264,12 +284,14 @@ print(queue.popleft())  # આઉટપુટ: x
 પાયથનમાં ઉદાહરણો:
 
 a) Dictionaries:
+
 ```python
 person = {'name': 'John', 'age': 30}
 print(person['name'])  # આઉટપુટ: John
 ```
 
 b) Sets:
+
 ```python
 unique_numbers = {1, 2, 3, 4, 5}
 unique_numbers.add(6)
@@ -277,6 +299,7 @@ print(unique_numbers)  # આઉટપુટ: {1, 2, 3, 4, 5, 6}
 ```
 
 c) Trees (ક્લાસનો ઉપયોગ કરીને અમલીકરણ):
+
 ```python
 class TreeNode:
     def __init__(self, value):
@@ -290,6 +313,7 @@ root.right = TreeNode(3)
 ```
 
 d) Graphs (ડિક્શનરીનો ઉપયોગ કરીને):
+
 ```python
 graph = {
     'A': ['B', 'C'],
@@ -867,12 +891,14 @@ graph TB
 Here are the algorithms for PUSH and POP operations of a stack implemented in Python:
 
 **PUSH Algorithm:**
+
 1. Check if the stack is full
 2. If full, display "Stack Overflow" error
 3. If not full, increment the top pointer
 4. Add the new element at the position of the top pointer
 
 Python implementation:
+
 ```python
 def push(stack, item, max_size):
     if len(stack) >= max_size:
@@ -883,6 +909,7 @@ def push(stack, item, max_size):
 ```
 
 **POP Algorithm:**
+
 1. Check if the stack is empty
 2. If empty, display "Stack Underflow" error
 3. If not empty, retrieve the item at the top pointer
@@ -890,6 +917,7 @@ def push(stack, item, max_size):
 5. Return the retrieved item
 
 Python implementation:
+
 ```python
 def pop(stack):
     if len(stack) == 0:
@@ -902,6 +930,7 @@ def pop(stack):
 ```
 
 **Usage example:**
+
 ```python
 # Initialize an empty stack
 stack = []
@@ -954,12 +983,14 @@ graph TD
 અહીં પાયથનમાં અમલ કરાયેલ સ્ટેકના PUSH અને POP ઓપરેશન માટેના અલ્ગોરિધમ આપ્યા છે:
 
 **PUSH અલ્ગોરિધમ:**
+
 1. તપાસો કે શું સ્ટેક ભરેલો છે
 2. જો ભરેલો હોય, તો "સ્ટેક ઓવરફ્લો" ભૂલ દર્શાવો
 3. જો ભરેલો ન હોય, તો ટોચના પોઈન્ટરને વધારો
 4. ટોચના પોઈન્ટરની સ્થિતિએ નવું એલિમેન્ટ ઉમેરો
 
 પાયથન અમલીકરણ:
+
 ```python
 def push(stack, item, max_size):
     if len(stack) >= max_size:
@@ -970,6 +1001,7 @@ def push(stack, item, max_size):
 ```
 
 **POP અલ્ગોરિધમ:**
+
 1. તપાસો કે શું સ્ટેક ખાલી છે
 2. જો ખાલી હોય, તો "સ્ટેક અન્ડરફ્લો" ભૂલ દર્શાવો
 3. જો ખાલી ન હોય, તો ટોચના પોઈન્ટર પરની આઇટમ મેળવો
@@ -977,6 +1009,7 @@ def push(stack, item, max_size):
 5. મેળવેલી આઇટમ પરત કરો
 
 પાયથન અમલીકરણ:
+
 ```python
 def pop(stack):
     if len(stack) == 0:
@@ -1076,6 +1109,7 @@ Let's apply this algorithm to our expression: A * (B + C) - D / (E + F)
 Therefore, the postfix expression is: ABC+*DEF+/-
 
 Verification:
+
 - The original infix expression: A * (B + C) - D / (E + F)
 - The resulting postfix expression: ABC+*DEF+/-
 
@@ -1145,6 +1179,7 @@ graph TD
 તેથી, પોસ્ટફિક્સ અભિવ્યક્તિ છે: ABC+*DEF+/-
 
 ચકાસણી:
+
 - મૂળ ઇન્ફિક્સ અભિવ્યક્તિ: A * (B + C) - D / (E + F)
 - પરિણામી પોસ્ટફિક્સ અભિવ્યક્તિ: ABC+*DEF+/-
 
@@ -1281,6 +1316,7 @@ A recursive function is a function that calls itself during its execution. This 
 2. **Recursive case**: The part where the function calls itself with a modified input.
 
 Key aspects of recursive functions:
+
 - They can often provide elegant solutions to complex problems.
 - Each recursive call creates a new instance of the function on the call stack.
 - Improper implementation can lead to stack overflow errors.
@@ -1289,7 +1325,7 @@ Let's illustrate this concept with a classic example: calculating the factorial 
 
 Example: Factorial Calculation
 
-The factorial of a non-negative integer n, denoted as n!, is the product of all positive integers less than or equal to n. For example, 5! = 5 * 4 * 3 * 2 * 1 = 120.
+The factorial of a non-negative integer n, denoted as n!, is the product of all positive integers less than or equal to n. For example, 5! = 5\* 4 \* 3 \* 2 \* 1 = 120.
 
 Here's a Python implementation of a recursive factorial function:
 
@@ -1349,6 +1385,7 @@ graph TD
 2. **રીકર્સિવ કેસ**: જે ભાગમાં ફંક્શન પોતાને સુધારેલા ઇનપુટ સાથે કૉલ કરે છે.
 
 રીકર્સિવ ફંક્શન્સના મુખ્ય પાસાઓ:
+
 - તેઓ ઘણીવાર જટિલ સમસ્યાઓ માટે સુંદર ઉકેલો પ્રદાન કરી શકે છે.
 - દરેક રીકર્સિવ કૉલ કૉલ સ્ટેક પર ફંક્શનનું નવું ઇન્સ્ટન્સ બનાવે છે.
 - અયોગ્ય અમલીકરણ સ્ટેક ઓવરફ્લો ભૂલો તરફ દોરી શકે છે.
@@ -1357,7 +1394,7 @@ graph TD
 
 ઉદાહરણ: ફેક્ટોરિયલ ગણતરી
 
-નોન-નેગેટિવ ઇન્ટીજર n નું ફેક્ટોરિયલ, n! તરીકે દર્શાવવામાં આવે છે, તે n કરતાં ઓછા અથવા તેના જેટલા બધા પોઝિટિવ ઇન્ટીજર્સનો ગુણાકાર છે. દાખલા તરીકે, 5! = 5 * 4 * 3 * 2 * 1 = 120.
+નોન-નેગેટિવ ઇન્ટીજર n નું ફેક્ટોરિયલ, n! તરીકે દર્શાવવામાં આવે છે, તે n કરતાં ઓછા અથવા તેના જેટલા બધા પોઝિટિવ ઇન્ટીજર્સનો ગુણાકાર છે. દાખલા તરીકે, 5! = 5\* 4 \* 3 \* 2 \* 1 = 120.
 
 અહીં રીકર્સિવ ફેક્ટોરિયલ ફંક્શનનું પાયથન અમલીકરણ આપ્યું છે:
 
@@ -1762,6 +1799,7 @@ graph LR
 **Ans 3b:**
 
 A doubly linked list is a linear data structure that consists of a sequence of elements where each element contains three components:
+
 1. Data
 2. A pointer to the next node
 3. A pointer to the previous node
@@ -1783,14 +1821,17 @@ class Node:
 ```
 
 **Advantages:**
+
 - Bidirectional traversal allows for more efficient insertion and deletion operations.
 - Reverse lookup is possible without the need for an additional data structure.
 
 **Disadvantages:**
+
 - Requires more memory due to the extra pointer in each node.
 - Increased complexity in implementation and maintenance.
 
 **Common operations:**
+
 - Insertion (at beginning, end, or any position)
 - Deletion (from beginning, end, or any position)
 - Traversal (forward and backward)
@@ -1810,6 +1851,7 @@ graph LR
 ```
 
 **Applications:**
+
 - Implementation of navigation systems (forward/backward)
 - Undo/Redo functionality in applications
 - Browser cache for storing recently visited pages
@@ -1821,6 +1863,7 @@ In conclusion, doubly linked lists provide enhanced flexibility in data manipula
 **જવાબ 3બ:**
 
 ડબલી લિન્ક્ડ લીસ્ટ એ એક લીનીયર ડેટા સ્ટ્રક્ચર છે જેમાં એલિમેન્ટ્સની એક શ્રેણી હોય છે જેમાં દરેક એલિમેન્ટમાં ત્રણ ઘટકો હોય છે:
+
 1. ડેટા
 2. આગળના નોડ તરફ નિર્દેશ કરતું પોઈન્ટર
 3. પાછલા નોડ તરફ નિર્દેશ કરતું પોઈન્ટર
@@ -1842,14 +1885,17 @@ class Node:
 ```
 
 **ફાયદા:**
+
 - દ્વિદિશ ટ્રાવર્સલ વધુ કાર્યક્ષમ insertion અને deletion ऑપરેશન્સની મંજૂરી આપે છે.
 - વધારાના ડેટા સ્ટ્રક્ચરની જરૂર વિના રિવર્સ લુકઅપ શક્ય છે.
 
 **ગેરફાયદા:**
+
 - દરેક નોડમાં વધારાના પોઈન્ટરને કારણે વધુ મેમરીની જરૂર પડે છે.
 - અમલીકરણ અને જાળવણીમાં વધેલી જટિલતા.
 
 **સામાન્ય ઓપરેશન્સ:**
+
 - Insertion (શરૂઆતમાં, અંતમાં, અથવા કોઈપણ સ્થિતિમાં)
 - Deletion (શરૂઆતથી, અંતથી, અથવા કોઈપણ સ્થિતિથી)
 - Traversal (આગળ અને પાછળ)
@@ -1869,6 +1915,7 @@ graph LR
 ```
 
 **એપ્લિકેશન્સ:**
+
 - નેવિગેશન સિસ્ટમ્સનું અમલીકરણ (આગળ/પાછળ)
 - એપ્લિકેશન્સમાં અનડુ/રીડુ કાર્યક્ષમતા
 - તાજેતરમાં મુલાકાત લીધેલા પેજોને સંગ્રહિત કરવા માટે બ્રાઉઝર કેશ
@@ -1876,7 +1923,9 @@ graph LR
 નિષ્કર્ષમાં, ડબલી લિન્ક્ડ લીસ્ટ વધેલી મેમરી વપરાશ અને જટિલતાની કિંમતે ડેટા મેનિપ્યુલેશનમાં વધારેલી લવચીકતા પ્રદાન કરે છે.
 
 ### Q3c: Write an algorithm for following operations on singly linked list: (07 marks)
+
 1. ### To insert a node at the beginning of the list.
+
 2. ### To insert the node at the end of the list.
 
 **Ans 3c:**
@@ -1910,6 +1959,7 @@ def insert_at_beginning(head, new_data):
 ```
 
 **Explanation:**
+
 - We create a new node with the given data.
 - We set the next pointer of the new node to the current head, effectively linking it to the rest of the list.
 - We update the head to point to the new node, making it the new first element.
@@ -1941,6 +1991,7 @@ def insert_at_end(head, new_data):
 ```
 
 **Explanation:**
+
 - We create a new node with the given data.
 - If the list is empty (head is None), we return the new node as the head.
 - We traverse the list to find the last node (the one with next pointing to None).
@@ -1967,6 +2018,7 @@ graph LR
 In conclusion, inserting at the beginning is generally more efficient as it's a constant time operation, while inserting at the end requires traversing the entire list, making it less efficient for large lists.
 
 ### પ્રશ્ન 3ક: નીચે આપેલ ઓપરેશન માટે અલગોરિધમ લખો: (૦૭ ગુણ)
+
 ### ૧. લીસ્ટ ની શરૂઆતમાં નોડ દાખલ કરવા
 
 ### ૨. લીસ્ટ ના અંતમાં નોડ દાખલ કરવા
@@ -2002,6 +2054,7 @@ def insert_at_beginning(head, new_data):
 ```
 
 **સમજૂતી:**
+
 - આપેલા ડેટા સાથે આપણે એક નવું નોડ બનાવીએ છીએ.
 - નવા નોડના next પોઇન્ટરને વર્તમાન head પર સેટ કરીએ છીએ, જેથી તે બાકીની લિસ્ટ સાથે જોડાય જાય.
 - આપણે head ને અપડેટ કરીએ છીએ જેથી તે નવા નોડ તરફ પોઇન્ટ કરે, જે હવે નવું પ્રથમ એલિમેન્ટ બની જાય છે.
@@ -2033,6 +2086,7 @@ def insert_at_end(head, new_data):
 ```
 
 **સમજૂતી:**
+
 - આપેલા ડેટા સાથે આપણે એક નવું નોડ બનાવીએ છીએ.
 - જો લિસ્ટ ખાલી હોય (head None હોય), તો આપણે નવા નોડને head તરીકે પરત કરીએ છીએ.
 - આપણે છેલ્લા નોડને શોધવા માટે લિસ્ટને ટ્રાવર્સ કરીએ છીએ (જેનું next None તરફ પોઇન્ટ કરતું હોય).
@@ -2200,11 +2254,13 @@ class Node:
 ```
 
 **Advantages:**
+
 - Allows for constant-time insertion at the beginning and end of the list.
 - Useful for implementing circular buffers or queues.
 - Simplifies certain algorithms, like round-robin scheduling.
 
 **Disadvantages:**
+
 - Slightly more complex to implement and manage than linear linked lists.
 - Risk of infinite loops if not handled carefully.
 
@@ -2221,6 +2277,7 @@ graph LR
 In this diagram, Node 4 points back to Node 1, creating the circular structure.
 
 Applications of circular linked lists include:
+
 - Implementation of circular buffers
 - Round-robin scheduling in operating systems
 - Maintaining a playlist for music players
@@ -2258,11 +2315,13 @@ class Node:
 ```
 
 **ફાયદા:**
+
 - લિસ્ટની શરૂઆત અને અંતમાં સતત-સમય insertion ની મંજૂરી આપે છે.
 - સર્ક્યુલર બફર્સ અથવા queues ને અમલમાં મૂકવા માટે ઉપયોગી.
 - કેટલાક અલ્ગોરિધમ્સને સરળ બનાવે છે, જેમ કે round-robin શેડ્યુલિંગ.
 
 **ગેરફાયદા:**
+
 - લીનીયર લિંક્ડ લીસ્ટ્સ કરતાં થોડું વધુ જટિલ અમલીકરણ અને સંચાલન.
 - કાળજીપૂર્વક હેન્ડલ ન કરવામાં આવે તો અનંત લૂપ્સનું જોખમ.
 
@@ -2279,6 +2338,7 @@ graph LR
 આ આકૃતિમાં, નોડ 4 પાછું નોડ 1 તરફ પોઈન્ટ કરે છે, જે વર્તુળાકાર રચના બનાવે છે.
 
 સર્ક્યુલર લિંક્ડ લીસ્ટના ઉપયોગોમાં સામેલ છે:
+
 - સર્ક્યુલર બફર્સનું અમલીકરણ
 - ઓપરેટિંગ સિસ્ટમ્સમાં round-robin શેડ્યુલિંગ
 - મ્યુઝિક પ્લેયર્સ માટે પ્લેલિસ્ટ જાળવવી
@@ -2673,6 +2733,7 @@ print("Sorted list:", sorted_list)
 7. We print the original list, call the `bubble_sort` function, and then print the sorted list.
 
 **Output:**
+
 ```
 Original list: [5, 4, 3, 2, 1, 0]
 Sorted list: [0, 1, 2, 3, 4, 5]
@@ -2747,6 +2808,7 @@ print("સોર્ટેડ લીસ્ટ:", sorted_list)
 7. આપણે મૂળ લીસ્ટ પ્રિન્ટ કરીએ છીએ, `bubble_sort` ફંક્શનને કૉલ કરીએ છીએ, અને પછી સોર્ટેડ લીસ્ટ પ્રિન્ટ કરીએ છીએ.
 
 **આઉટપુટ:**
+
 ```
 મૂળ લીસ્ટ: [5, 4, 3, 2, 1, 0]
 સોર્ટેડ લીસ્ટ: [0, 1, 2, 3, 4, 5]
@@ -2926,6 +2988,7 @@ def insertion_sort(arr):
 ```
 
 **Time Complexity:**
+
 - Best Case: O(n) when the array is already sorted
 - Average and Worst Case: O(n^2)
 
@@ -2991,6 +3054,7 @@ def insertion_sort(arr):
 ```
 
 **Time Complexity:**
+
 - શ્રેષ્ઠ કેસ: O(n) જ્યારે array પહેલેથી જ sorted હોય
 - સરેરાશ અને ખરાબમાં ખરાબ કેસ: O(n^2)
 
@@ -3190,6 +3254,7 @@ graph TD
 ```
 
 In this diagram:
+
 - The entire structure represents a forest with three separate trees.
 - Nodes A, G, and K are root nodes of their respective trees.
 - Nodes D, E, F, I, J, L, and M are leaf nodes as they have no children.
@@ -3234,6 +3299,7 @@ graph TD
 ```
 
 આ આકૃતિમાં:
+
 - સમગ્ર માળખું ત્રણ અલગ trees વાળા forest નું પ્રતિનિધિત્વ કરે છે.
 - A, G, અને K nodes તેમના સંબંધિત trees ના root nodes છે.
 - D, E, F, I, J, L, અને M nodes leaf nodes છે કારણ કે તેમને કોઈ children નથી.
@@ -3257,6 +3323,7 @@ graph TD
 ```
 
 Explanation of the BST construction:
+
 1. 78 is the root node.
 2. 58 is less than 78, so it goes to the left.
 3. 82 is greater than 78, so it goes to the right.
@@ -3274,6 +3341,7 @@ The in-order traversal for this BST is:
 15, 58, 66, 78, 80, 82, 99
 
 Steps for in-order traversal:
+
 1. Visit the left subtree of 78: (15, 58, 66)
 2. Visit 78
 3. Visit the right subtree of 78: (80, 82, 99)
@@ -3299,6 +3367,7 @@ graph TD
 ```
 
 BST રચનાનું સ્પષ્ટીકરણ:
+
 1. 78 root node છે.
 2. 58, 78 કરતા ઓછું છે, તેથી તે ડાબી બાજુ જાય છે.
 3. 82, 78 કરતા વધારે છે, તેથી તે જમણી બાજુ જાય છે.
@@ -3316,6 +3385,7 @@ Binary tree નું in-order traversal પ્રથમ ડાબા subtree �
 15, 58, 66, 78, 80, 82, 99
 
 In-order traversal માટેના પગલાં:
+
 1. 78 ના ડાબા subtree ની મુલાકાત લો: (15, 58, 66)
 2. 78 ની મુલાકાત લો
 3. 78 ના જમણા subtree ની મુલાકાત લો: (80, 82, 99)
@@ -3329,6 +3399,7 @@ In-order traversal માટેના પગલાં:
 1. **Insertion of Node in Binary Tree:**
 
 Algorithm:
+
 1. Start at the root of the tree.
 2. If the tree is empty, create a new node as the root and return.
 3. Create a queue and enqueue the root node.
@@ -3367,6 +3438,7 @@ graph TD
 2. **Deletion of Node in Binary Tree:**
 
 Algorithm:
+
 1. Start at the root of the tree.
 2. If the tree is empty, return.
 3. Create a queue and enqueue the root node.
@@ -3414,6 +3486,7 @@ These algorithms provide a general approach for insertion and deletion in a bina
 1. **Binary Tree માં નોડ દાખલ કરવા:**
 
 અલગોરિધમ:
+
 1. Tree ના root થી શરૂ કરો.
 2. જો tree ખાલી હોય, તો નવો node બનાવીને તેને root તરીકે સેટ કરો અને પરત ફરો.
 3. એક queue બનાવો અને તેમાં root node ને enqueue કરો.
@@ -3452,6 +3525,7 @@ graph TD
 2. **Binary Tree માંથી નોડ કાઢવા માટે:**
 
 અલગોરિધમ:
+
 1. Tree ના root થી શરૂ કરો.
 2. જો tree ખાલી હોય, તો પરત ફરો.
 3. એક queue બનાવો અને તેમાં root node ને enqueue કરો.
@@ -3526,6 +3600,7 @@ graph TD
 ```
 
 In this diagram:
+
 - Node A (Root) has in-degree 0 and out-degree 2
 - Nodes B and C have in-degree 1 and out-degree 2 and 1 respectively
 - Nodes D, E, and F (Leaves) have in-degree 1 and out-degree 0
@@ -3565,6 +3640,7 @@ graph TD
 ```
 
 આ આકૃતિમાં:
+
 - Node A (Root) નો in-degree 0 અને out-degree 2 છે
 - Nodes B અને C નો in-degree 1 અને out-degree અનુક્રમે 2 અને 1 છે
 - Nodes D, E, અને F (Leaves) નો in-degree 1 અને out-degree 0 છે
