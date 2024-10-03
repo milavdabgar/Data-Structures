@@ -238,7 +238,7 @@ Key points about objects:
 - Can perform actions (methods) defined in their class
 - Interact with other objects
 
-**Example: Car Class and Objects**
+**Example: Car Class and Objects:**
 
 Let's illustrate these concepts with a `Car` class and car objects:
 
@@ -337,7 +337,7 @@ Objects વિશેના મુખ્ય મુદ્દાઓ:
 - તેમના class માં વ્યાખ્યાયિત ક્રિયાઓ (methods) કરી શકે છે
 - અન્ય objects સાથે interact કરે છે
 
-**ઉદાહરણ: Car Class અને Objects**
+**ઉદાહરણ: Car Class અને Objects:**
 
 આ concepts ને `Car` class અને car objects સાથે સમજાવીએ:
 
@@ -568,7 +568,7 @@ A recursive function is a function that calls itself during its execution. This 
 
 Key points about recursive functions:
 
-1. **Base Case:** 
+1. **Base Case:**
    - A condition that stops the recursion
    - Prevents infinite recursion
    - Usually the simplest form of the problem
@@ -1153,7 +1153,7 @@ graph LR
 
 Let's break this down into two parts: converting the infix expression to postfix, and then evaluating the postfix expression.
 
-1. Converting A+B/C+D to postfix:
+**Converting A+B/C+D to postfix:**
 
 Step 1: Use the following precedence rules:
 
@@ -1173,7 +1173,7 @@ D → output: ABC/+D
 Step 3: Pop remaining operators from the stack:
 Final postfix expression: ABC/+D+
 
-2. Evaluating the postfix expression:
+**Evaluating the postfix expression:**
 
 Let's assume the following values:
 A = 5, B = 10, C = 2, D = 3
@@ -1234,7 +1234,7 @@ graph TD
 
 આ પ્રશ્નને બે ભાગમાં વિભાજિત કરીએ: ઇનફિક્સ અભિવ્યક્તિને પોસ્ટફિક્સમાં રૂપાંતરિત કરવી અને પછી પોસ્ટફિક્સ અભિવ્યક્તિનું મૂલ્યાંકન કરવું.
 
-1. A+B/C+D ને પોસ્ટફિક્સમાં રૂપાંતરિત કરવું:
+**A+B/C+D ને પોસ્ટફિક્સમાં રૂપાંતરિત કરવું:**
 
 પગલું 1: નીચેના પ્રાધાન્યતા નિયમોનો ઉપયોગ કરો:
 
@@ -1254,7 +1254,7 @@ D → આઉટપુટ: ABC/+D
 પગલું 3: સ્ટેકમાંથી બાકીના ઓપરેટર્સને પોપ કરો:
 અંતિમ પોસ્ટફિક્સ અભિવ્યક્તિ: ABC/+D+
 
-2. પોસ્ટફિક્સ અભિવ્યક્તિનું મૂલ્યાંકન:
+**પોસ્ટફિક્સ અભિવ્યક્તિનું મૂલ્યાંકન:**
 
 ચાલો નીચેની કિંમતો ધારીએ:
 A = 5, B = 10, C = 2, D = 3
@@ -1643,7 +1643,7 @@ Explanation:
 
 Output:
 
-```
+```markdown
 After inserting at the beginning:
 1 -> 2 -> 3 -> None
 After inserting at the end:
@@ -1738,7 +1738,7 @@ linked_list.display()
 
 આઉટપુટ:
 
-```
+```markdown
 શરૂઆતમાં ઉમેર્યા પછી:
 1 -> 2 -> 3 -> None
 અંતમાં ઉમેર્યા પછી:
@@ -1800,7 +1800,7 @@ Explanation:
 
 Output:
 
-```
+```markdown
 Number of nodes: 3
 ```
 
@@ -1847,7 +1847,7 @@ print("નોડની સંખ્યા:", linked_list.count_nodes())
 
 આઉટપુટ:
 
-```
+```markdown
 નોડની સંખ્યા: 3
 ```
 
@@ -2530,19 +2530,19 @@ Quick sort is an efficient, divide-and-conquer sorting algorithm. Here's an expl
    c. Recursively apply the above steps to the sub-arrays.
 
 3. Example:
-   Let's sort the array: [8, 3, 2, 5, 1, 7, 6, 4]
+   Let's sort the array: \[8, 3, 2, 5, 1, 7, 6, 4\]
 
    Step 1: Choose last element (4) as pivot
-   [8, 3, 2, 5, 1, 7, 6, 4]
+   \[8, 3, 2, 5, 1, 7, 6, 4\]
                           ^
    Step 2: Partition
-   [3, 2, 1, 4, 8, 7, 6, 5]
+   \[3, 2, 1, 4, 8, 7, 6, 5\]
             ^
    Step 3: Recursively sort left and right sub-arrays
-   Left: [3, 2, 1]   Right: [8, 7, 6, 5]
+   Left: \[3, 2, 1\]   Right: \[8, 7, 6, 5\]
 
    Continuing this process:
-   [1, 2, 3, 4, 5, 6, 7, 8]
+   \[1, 2, 3, 4, 5, 6, 7, 8\]
 
 4. Time Complexity:
    - Average case: O(n log n)
@@ -2587,19 +2587,19 @@ This diagram illustrates the recursive nature of the quick sort algorithm, showi
    c. ઉપરોક્ત પગલાંને પેટા-એરે પર પુનરાવર્તિત રીતે લાગુ કરો.
 
 3. ઉદાહરણ:
-   ચાલો આ એરેને સોર્ટ કરીએ: [8, 3, 2, 5, 1, 7, 6, 4]
+   ચાલો આ એરેને સોર્ટ કરીએ: \[8, 3, 2, 5, 1, 7, 6, 4\]
 
    પગલું 1: છેલ્લા તત્વને (4) પિવોટ તરીકે પસંદ કરો
-   [8, 3, 2, 5, 1, 7, 6, 4]
+   \[8, 3, 2, 5, 1, 7, 6, 4\]
                           ^
    પગલું 2: વિભાજન કરો
-   [3, 2, 1, 4, 8, 7, 6, 5]
+   \[3, 2, 1, 4, 8, 7, 6, 5\]
             ^
    પગલું 3: ડાબા અને જમણા પેટા-એરેને પુનરાવર્તિત રીતે સોર્ટ કરો
-   ડાબે: [3, 2, 1]   જમણે: [8, 7, 6, 5]
+   ડાબે: \[3, 2, 1\]   જમણે: \[8, 7, 6, 5\]
 
    આ પ્રક્રિયા ચાલુ રાખતાં:
-   [1, 2, 3, 4, 5, 6, 7, 8]
+   \[1, 2, 3, 4, 5, 6, 7, 8\]
 
 4. સમય જટિલતા:
    - સરેરાશ કેસ: O(n log n)
@@ -2718,29 +2718,29 @@ In the context of tree data structures, these terms have specific meanings:
 1. Root:
    - Definition: The topmost node in a tree structure.
    - Characteristics:
-     * It has no parent.
-     * All other nodes can be reached from the root.
+     - It has no parent.
+     - All other nodes can be reached from the root.
    - Example: In a family tree, the oldest known ancestor would be the root.
 
 2. Path:
    - Definition: A sequence of nodes and edges connecting a node with a descendant.
    - Characteristics:
-     * Starts from one node and ends at another.
-     * Each node in the path is connected by an edge to the next node.
+     - Starts from one node and ends at another.
+     - Each node in the path is connected by an edge to the next node.
    - Example: The sequence of nodes you traverse to get from the root to a specific leaf.
 
 3. Parent:
    - Definition: A node that has one or more child nodes.
    - Characteristics:
-     * Directly connected to its children.
-     * A node can be a parent to multiple children but can have only one parent (except the root).
+     - Directly connected to its children.
+     - A node can be a parent to multiple children but can have only one parent (except the root).
    - Example: In a directory structure, a folder containing files is a parent to those files.
 
 4. Children:
    - Definition: Nodes that are direct descendants of a parent node.
    - Characteristics:
-     * Directly connected to their parent.
-     * A node can have multiple children or no children (leaf).
+     - Directly connected to their parent.
+     - A node can have multiple children or no children (leaf).
    - Example: In an organizational chart, employees directly under a manager are the children nodes of that manager node.
 
 ```mermaid
@@ -2761,29 +2761,29 @@ This diagram illustrates the concepts of root (A), parent (A, B, C), children (B
 1. રૂટ (Root):
    - વ્યાખ્યા: ટ્રી સ્ટ્રક્ચરમાં સૌથી ઉપરનો નોડ.
    - લક્ષણો:
-     * તેને કોઈ parent નથી.
-     * બધા અન્ય નોડ્સ રૂટથી પહોંચી શકાય છે.
+     - તેને કોઈ parent નથી.
+     - બધા અન્ય નોડ્સ રૂટથી પહોંચી શકાય છે.
    - ઉદાહરણ: કુટુંબ વૃક્ષમાં, સૌથી જૂનો જાણીતો પૂર્વજ રૂટ હશે.
 
 2. પાથ (Path):
    - વ્યાખ્યા: એક નોડને તેના વંશજ સાથે જોડતા નોડ્સ અને એજની શ્રેણી.
    - લક્ષણો:
-     * એક નોડથી શરૂ થાય છે અને બીજા પર સમાપ્ત થાય છે.
-     * પાથમાં દરેક નોડ આગળના નોડ સાથે એજ દ્વારા જોડાયેલો હોય છે.
+     - એક નોડથી શરૂ થાય છે અને બીજા પર સમાપ્ત થાય છે.
+     - પાથમાં દરેક નોડ આગળના નોડ સાથે એજ દ્વારા જોડાયેલો હોય છે.
    - ઉદાહરણ: રૂટથી ચોક્કસ leaf સુધી પહોંચવા માટે તમે જે નોડ્સની શ્રેણીમાંથી પસાર થાઓ છો તે.
 
 3. Parent:
    - વ્યાખ્યા: એક અથવા વધુ child નોડ્સ ધરાવતો નોડ.
    - લક્ષણો:
-     * તેના children સાથે સીધો જોડાયેલો.
-     * એક નોડ અનેક childrenનો parent હોઈ શકે છે પરંતુ તેને માત્ર એક જ parent હોઈ શકે છે (રૂટ સિવાય).
+     - તેના children સાથે સીધો જોડાયેલો.
+     - એક નોડ અનેક childrenનો parent હોઈ શકે છે પરંતુ તેને માત્ર એક જ parent હોઈ શકે છે (રૂટ સિવાય).
    - ઉદાહરણ: ડિરેક્ટરી સ્ટ્રક્ચરમાં, ફાઇલો ધરાવતું ફોલ્ડર તે ફાઇલોનો parent છે.
 
 4. Children:
    - વ્યાખ્યા: parent નોડના સીધા વંશજો.
    - લક્ષણો:
-     * તેમના parent સાથે સીધા જોડાયેલા.
-     * એક નોડને અનેક children હોઈ શકે છે અથવા કોઈ child ન પણ હોય (leaf).
+     - તેમના parent સાથે સીધા જોડાયેલા.
+     - એક નોડને અનેક children હોઈ શકે છે અથવા કોઈ child ન પણ હોય (leaf).
    - ઉદાહરણ: સંગઠનાત્મક ચાર્ટમાં, મેનેજર હેઠળ સીધા કર્મચારીઓ તે મેનેજર નોડના children નોડ્સ છે.
 
 ```mermaid
@@ -3046,9 +3046,9 @@ Insertion of a node in a Binary Search Tree (BST) follows a specific algorithm t
 3. Steps in Detail:
    - If the tree is empty, the new node becomes the root.
    - Otherwise, traverse the tree:
-     * If the new value is less than the current node, go left.
-     * If it's greater, go right.
-     * If you reach a null pointer, insert the new node there.
+     - If the new value is less than the current node, go left.
+     - If it's greater, go right.
+     - If you reach a null pointer, insert the new node there.
 
 4. Time Complexity:
    - Average case: O(log n), where n is the number of nodes.
@@ -3088,9 +3088,9 @@ This flowchart illustrates the decision process for inserting a new node in a BS
 3. વિગતવાર પગલાં:
    - જો ટ્રી ખાલી હોય, તો નવો નોડ રૂટ બને છે.
    - અન્યથા, ટ્રીને ટ્રાવર્સ કરો:
-     * જો નવું મૂલ્ય વર્તમાન નોડ કરતાં ઓછું હોય, તો ડાબે જાઓ.
-     * જો તે વધારે હોય, તો જમણે જાઓ.
-     * જો તમે null pointer પર પહોંચો, તો ત્યાં નવો નોડ દાખલ કરો.
+     - જો નવું મૂલ્ય વર્તમાન નોડ કરતાં ઓછું હોય, તો ડાબે જાઓ.
+     - જો તે વધારે હોય, તો જમણે જાઓ.
+     - જો તમે null pointer પર પહોંચો, તો ત્યાં નવો નોડ દાખલ કરો.
 
 4. સમય જટિલતા:
    - સરેરાશ કેસ: O(log n), જ્યાં n નોડ્સની સંખ્યા છે.
@@ -3119,30 +3119,30 @@ Let's construct the Binary Search Tree (BST) step by step and then perform an in
    - Start with 8 as the root
    - Insert each number one by one according to BST rules
 
-Here's the resulting BST:
+    Here's the resulting BST:
 
-```mermaid
-graph TD
-    8((8)) --> 4((4))
-    8 --> 12((12))
-    4 --> 2((2))
-    4 --> 6((6))
-    2 --> 1((1))
-    2 --> 3((3))
-    6 --> 5((5))
-    12 --> 10((10))
-    12 --> 14((14))
+    ```mermaid
+    graph TD
+        8((8)) --> 4((4))
+        8 --> 12((12))
+        4 --> 2((2))
+        4 --> 6((6))
+        2 --> 1((1))
+        2 --> 3((3))
+        6 --> 5((5))
+        12 --> 10((10))
+        12 --> 14((14))
 
-    classDef default fill:#f9f,stroke:#333,stroke-width:1px;
-```
+        classDef default fill:#f9f,stroke:#333,stroke-width:1px;
+    ```
 
 2. In-order Traversal:
    - Algorithm: Visit left subtree, visit root, visit right subtree
-   - Process: 
-     * Start at the root (8)
-     * Traverse left subtree completely
-     * Visit the root
-     * Traverse right subtree completely
+   - Process:
+     - Start at the root (8)
+     - Traverse left subtree completely
+     - Visit the root
+     - Traverse right subtree completely
 
 3. In-order Traversal Sequence:
    1, 2, 3, 4, 5, 6, 8, 10, 12, 14
@@ -3167,30 +3167,30 @@ This in-order traversal results in the numbers being visited in ascending order,
    - 8 ને રૂટ તરીકે શરૂ કરો
    - BST નિયમો અનુસાર દરેક નંબરને એક પછી એક દાખલ કરો
 
-અહીં પરિણામી BST છે:
+    અહીં પરિણામી BST છે:
 
-```mermaid
-graph TD
-    8((8)) --> 4((4))
-    8 --> 12((12))
-    4 --> 2((2))
-    4 --> 6((6))
-    2 --> 1((1))
-    2 --> 3((3))
-    6 --> 5((5))
-    12 --> 10((10))
-    12 --> 14((14))
+    ```mermaid
+    graph TD
+        8((8)) --> 4((4))
+        8 --> 12((12))
+        4 --> 2((2))
+        4 --> 6((6))
+        2 --> 1((1))
+        2 --> 3((3))
+        6 --> 5((5))
+        12 --> 10((10))
+        12 --> 14((14))
 
-    classDef default fill:#f9f,stroke:#333,stroke-width:1px;
-```
+        classDef default fill:#f9f,stroke:#333,stroke-width:1px;
+    ```
 
 2. ઇન-ઓર્ડર ટ્રાવર્સલ:
    - અલ્ગોરિધમ: ડાબા સબટ્રીની મુલાકાત લો, રૂટની મુલાકાત લો, જમણા સબટ્રીની મુલાકાત લો
    - પ્રક્રિયા:
-     * રૂટ (8) થી શરૂ કરો
-     * ડાબા સબટ્રીને સંપૂર્ણપણે ટ્રાવર્સ કરો
-     * રૂટની મુલાકાત લો
-     * જમણા સબટ્રીને સંપૂર્ણપણે ટ્રાવર્સ કરો
+     - રૂટ (8) થી શરૂ કરો
+     - ડાબા સબટ્રીને સંપૂર્ણપણે ટ્રાવર્સ કરો
+     - રૂટની મુલાકાત લો
+     - જમણા સબટ્રીને સંપૂર્ણપણે ટ્રાવર્સ કરો
 
 3. ઇન-ઓર્ડર ટ્રાવર્સલ ક્રમ:
    1, 2, 3, 4, 5, 6, 8, 10, 12, 14
